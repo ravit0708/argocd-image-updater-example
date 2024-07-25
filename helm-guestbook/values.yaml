@@ -8,8 +8,8 @@ guestbook:
   pullPolicy: IfNotPresent
 
 nginx:
-  image: public.ecr.aws/nginx/nginx
-  tag: 1.18.0
+  image: ravitripathi/argocd
+  tag: 1.0.0
   pullPolicy: IfNotPresent
 
 service:
