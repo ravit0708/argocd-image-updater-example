@@ -4,5 +4,11 @@ helm:
     value: ravitripathi/argocd
     forcestring: true
   - name: image.tag
+    value: 1.0.1
+    forcestring: true
+  - name: nginx.image
+    value: ravitripathi/argocd
+    forcestring: true
+  - name: nginx.tag
     value: 1.0.2
     forcestring: true
